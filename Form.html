@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="">
+    <legend> STUDENT IFORMATION</legend>
+    <br>
+    <label for="fname">firstname:</label>
+    <input type="text"id="fname"placeholder="firstame" required="required">
+    <br><br>
+    <label for="sname"> sname:</label>
+    <input type="text"id="sname"placeholder="sname"required="required">
+    <br><br>
+    <label for="email">email address</label>
+    <input type="email" id="email" placeholder="email" required="required">
+    <br><br>
+    <label for="pwd">password</label>
+    <input type="password"id="pwd"placeholder="type your password"required="required">
+    <br><br>
+    <p>choose a programming language</p>
+    <input type="radio"id="python">
+    <label for="python">python</label> <br>
+    <input type="radio"id="php">
+    <label for="php">php</label><br>
+    <input type="radio"id="java">
+    <label for="java">java</label><br><br>
+
+    <p>choose your favourite game</p>
+    <input type="checkbox"id="football">
+    <label for="football">football</label><br>
+    <input type="checkbox"id="tennis">
+    <label for="tennis"> tennis</label><br><br>
+
+    <label for="course">select a course</label>
+    <select name="" id="course"></select>
+    <option value="choose"disabled="disabled"></option>
+    <option value="comp">computer science</option>
+    <option value="eng">software Engineering</option>
+    <option value="it">information</option>
+    <br><br>
+    <label for="file">choose a file</label>
+    <input type="file" id="file" required="required"><br><br>
+    <label for="type"> describe yourelf</label>
+
+    <textarea name="text" id="type" cols="20" rows="9"></textarea><br><br>
+    <label for="yob">year of birth</label>
+    <input type="date" id="yob" required="required">
+    <br><br>
+    <button type="submit">submit</button>
+
+
+
+
+
+</form>
+
+</body>
+</html>
